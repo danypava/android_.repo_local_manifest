@@ -2,11 +2,13 @@
 <manifest>
   <!-- Remote names -->
   <remote name="gitlab-jonas" fetch="https://gitlab.com/jonascardoso" />
+  <remote name="github-dp" fetch="https://gitlab.com/danypava" />
   <!-- Devices sources -->
   <!-- Xiaomi msm8996 devices -->
   <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" remote="pixel-devices" revision="ten-3.18.x" />
   <project path="device/xiaomi/capricorn" name="device_xiaomi_capricorn" remote="pixel-devices" revision="ten" />
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" remote="pixel-devices" revision="ten" />
+  <project path="device/xiaomi/natrium" name="android_device_xiaomi_natrium" remote="github-dp" revision="ten" />
   <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="ten-3.18.x" />
 
   <!-- Vendor -->

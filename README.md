@@ -1,6 +1,6 @@
 Manifest for Android Ten / Pixel Experience
 ====================================
-Project Mi5|Gemini / Project Mi5S|Capricorn - 3.18.x
+Project Mi5|Gemini / Project Mi5S|Capricorn / Project Mi5S Plus|Natrium- 3.18.x
 
 ---
 
@@ -41,5 +41,13 @@ To build ROM for Xiaomi Mi5:
 To build ROM for Xiaomi Mi5S:
 
     lunch aosp_capricorn-userdebug
+
+    mka bacon -j$(nproc --all)
+
+---
+
+To build ROM for Xiaomi Mi5S Plus:
+
+    lunch aosp_natrium-userdebug
 
     mka bacon -j$(nproc --all)
